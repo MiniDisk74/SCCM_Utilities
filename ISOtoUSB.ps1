@@ -12,7 +12,7 @@
 .PARAMETER USBDriveLabel
     USB Drive Label (no spaces)
 .EXAMPLE
-    Copy-IsoToUsb -ISOFile "C:\Temp\SW_DVD5_Win_Pro_Ent_Edu_N_10_1709_64BIT_English_MLF_X21-50143.ISO" -MakeBootable -USBDriveLabel WIN10X64
+    powershell -executionpolicy Bypass -File ISOtoUSB.ps1 -ISOFile "BootMediax64.iso" -MakeBootable -USBLabel "SCCMBoot"
     You will be prompted to select a USB Drive in GridView
 .NOTES
     NAME:	Copy-IsoToUsb.ps1
@@ -21,7 +21,7 @@
     VERSION:	18.9.5
     
     Original credit to David Segura
-    https://www.osdeploy.com/
+    https://www.osdeploy.com/ 
             
     Original credit to Mike Robbins
     http://mikefrobbins.com/2018/01/18/use-powershell-to-create-a-bootable-usb-drive-from-a-windows-10-or-windows-server-2016-iso/
