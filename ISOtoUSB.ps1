@@ -1,8 +1,8 @@
-﻿<#
+<#
 .LINK
-    https://www.osdeploy.com
+    https://www.extremelycashpoor.com
 .SYNOPSIS
-    Creates a Bootable FAT32 USB (32GB or smaller) and copies a Mounted ISO.
+    Creates a Bootable FAT32 USB (32GB or smaller) and copies a Mounted ISO. (Modified to run as an SCCM Application)
 .DESCRIPTION
     Creates a Bootable FAT32 USB (32GB or smaller) and copies a Mounted ISO.
 .PARAMETER ISOFile
@@ -16,9 +16,12 @@
     You will be prompted to select a USB Drive in GridView
 .NOTES
     NAME:	Copy-IsoToUsb.ps1
-    AUTHOR:	
-    BLOG:	
+    AUTHOR:	MiniDisk
+    BLOG:	https://www.extremelycashpoor.com
     VERSION:	18.9.5
+    
+    Original credit to David Segura
+    https://www.osdeploy.com/
             
     Original credit to Mike Robbins
     http://mikefrobbins.com/2018/01/18/use-powershell-to-create-a-bootable-usb-drive-from-a-windows-10-or-windows-server-2016-iso/
