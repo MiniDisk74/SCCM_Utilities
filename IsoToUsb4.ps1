@@ -103,7 +103,7 @@ if ($SelectedDisk)
 	#=================================================
 	Write-Log -LogFile $LogFile -Message "Copying Files ..."
 	#=================================================
-	Copy-Item -Path "$($ISO):\*" -Destination "$($DriveLetter):" -Recurse -Verbose *>> c:\copyitemsResults.log
+	Copy-Item -Path "$($ISO):\*" -Destination "$($DriveLetter):" -Recurse -Verbose *>> C:\windows\temp\copyitemsResults.log
 	#=================================================
 	Write-Log -LogFile $LogFile -Message "Dismounting Disk Image ..."
 	#=================================================
